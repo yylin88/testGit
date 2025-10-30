@@ -66,6 +66,39 @@
           }
         ]
       }
+    },
+    {
+      "enabled": true,
+      "jobType": "Execute",
+      "configuration": {
+        "type": "Cron",
+        "startDateTime": "2025-10-14T14:26:00",
+        "endDateTime": "2026-12-30T14:26:00",
+        "localTimeZoneId": "China Standard Time",
+        "interval": 15,
+        "parameters": [
+          {
+            "name": "abcdd",
+            "value": "2025-01-14T16:15:20.123Z",
+            "type": "Text"
+          },
+          {
+            "name": "NumberParam",
+            "value": 1.2,
+            "type": "Number"
+          },
+          {
+            "name": "IntegerParam",
+            "value": 1.0,
+            "type": "Integer"
+          },
+          {
+            "name": "BooleanParam",
+            "value": true,
+            "type": "Boolean"
+          }
+        ]
+      }
     }
   ]
 }
