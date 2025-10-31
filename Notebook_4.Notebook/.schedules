@@ -66,6 +66,39 @@
           }
         ]
       }
+    },
+    {
+      "enabled": true,
+      "jobType": "Execute",
+      "configuration": {
+        "type": "Cron",
+        "startDateTime": "2025-06-20T14:19:00",
+        "endDateTime": "2025-11-30T13:19:00",
+        "localTimeZoneId": "Central Standard Time",
+        "interval": 10,
+        "parameters": [
+          {
+            "name": "dateTimeParam",
+            "value": "2025-01-14T16:15:20.123Z",
+            "type": "Text"
+          },
+          {
+            "name": "NumberParam",
+            "value": 1.2,
+            "type": "Number"
+          },
+          {
+            "name": "IntegerParam",
+            "value": 1.0,
+            "type": "Integer"
+          },
+          {
+            "name": "BooleanParam",
+            "value": true,
+            "type": "Boolean"
+          }
+        ]
+      }
     }
   ]
 }
