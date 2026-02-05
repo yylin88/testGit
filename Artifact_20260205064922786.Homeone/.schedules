@@ -183,6 +183,55 @@
         "interval": 10,
         "parameters": []
       }
+    },
+    {
+      "enabled": true,
+      "jobType": "Execute",
+      "configuration": {
+        "type": "Cron",
+        "startDateTime": "2025-10-14T14:26:00",
+        "endDateTime": "2028-12-30T14:26:00",
+        "localTimeZoneId": "China Standard Time",
+        "interval": 15,
+        "parameters": [
+          {
+            "name": "guidTest",
+            "value": "00000009-0000-0000-c000-000000000000",
+            "type": "Guid"
+          },
+          {
+            "name": "abcdd",
+            "value": "2025-01-14T16:15:20.123Z",
+            "type": "Text"
+          }
+        ]
+      }
+    },
+    {
+      "enabled": true,
+      "jobType": "Execute",
+      "configuration": {
+        "type": "Cron",
+        "startDateTime": "2025-10-14T14:26:00",
+        "endDateTime": "2028-12-30T14:26:00",
+        "localTimeZoneId": "China Standard Time",
+        "interval": 15,
+        "parameters": [
+          {
+            "name": "guidTest",
+            "value": "00000009-0000-0000-c000-000000000000",
+            "type": "Guid"
+          },
+          {
+            "name": "abcdd",
+            "value": "2025-01-14T16:15:20.123Z",
+            "type": "Text"
+          }
+        ],
+        "executionData": {
+          "data": "test4"
+        }
+      }
     }
   ]
 }
