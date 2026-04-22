@@ -1,0 +1,13 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/gitIntegration/platformProperties/2.1.0/schema.json",
+  "metadata": {
+    "type": "Homeone",
+    "displayName": "Artifact_20260422102015069",
+    "description": "This is an artifact created at Wed, 22 Apr 2026 10:20:15 GMT",
+    "sensitivityLabelId": "00000000-0000-0000-0000-000000000000"
+  },
+  "config": {
+    "version": "2.1",
+    "logicalId": "de49c99d-0d6f-9e72-4b9c-11749c325418"
+  }
+}

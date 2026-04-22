@@ -1,0 +1,23 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/variableLibrary/definition/variables/1.0.0/schema.json",
+  "variables": [
+    {
+      "name": "p1",
+      "note": "",
+      "type": "Boolean",
+      "value": true
+    },
+    {
+      "name": "p2",
+      "note": "",
+      "type": "Boolean",
+      "value": false
+    },
+    {
+      "name": "p3",
+      "note": "",
+      "type": "String",
+      "value": "test"
+    }
+  ]
+}
