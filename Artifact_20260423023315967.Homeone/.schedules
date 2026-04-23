@@ -2,6 +2,8 @@
   "$schema": "https://developer.microsoft.com/json-schemas/fabric/gitIntegration/schedules/1.0.0/schema.json",
   "schedules": [
     {
+      "enabledVariableReference": "$(/**/Variables_1/p1)",
+      "enabledManagedType": "VariableReferenceManaged",
       "jobType": "Execute",
       "configuration": {
         "type": "Cron",
@@ -9,11 +11,11 @@
         "endDateTime": "2026-11-30T13:19:00",
         "localTimeZoneId": "Central Standard Time",
         "interval": 10
-      },
-      "enabledManagedType": "VariableReferenceManaged",
-      "enabledVariableReference": "$(/**/Variables_1/p1)"
+      }
     },
     {
+      "enabledVariableReference": "$(/**/Variables_1/p1)",
+      "enabledManagedType": "VariableReferenceManaged",
       "jobType": "Execute",
       "configuration": {
         "type": "Cron",
@@ -21,25 +23,12 @@
         "endDateTime": "2026-11-30T13:19:00",
         "localTimeZoneId": "Central Standard Time",
         "interval": 10
-      },
-      "enabledManagedType": "VariableReferenceManaged",
-      "enabledVariableReference": "$(/**/Variables_1/p1)"
+      }
     },
     {
       "enabled": true,
-      "jobType": "Execute",
-      "configuration": {
-        "type": "Cron",
-        "startDateTime": "2025-06-20T14:19:00",
-        "endDateTime": "2027-11-30T13:19:00",
-        "localTimeZoneId": "Central Standard Time",
-        "interval": 10
-      },
+      "enabledVariableReference": "$(/**/Variables_1/p1)",
       "enabledManagedType": "UserManaged",
-      "enabledVariableReference": "$(/**/Variables_1/p1)"
-    },
-    {
-      "enabled": true,
       "jobType": "Execute",
       "configuration": {
         "type": "Cron",
@@ -47,8 +36,31 @@
         "endDateTime": "2027-11-30T13:19:00",
         "localTimeZoneId": "Central Standard Time",
         "interval": 10
-      },
-      "enabledManagedType": "UserManaged"
+      }
+    },
+    {
+      "enabled": true,
+      "enabledManagedType": "UserManaged",
+      "jobType": "Execute",
+      "configuration": {
+        "type": "Cron",
+        "startDateTime": "2025-06-20T14:19:00",
+        "endDateTime": "2027-11-30T13:19:00",
+        "localTimeZoneId": "Central Standard Time",
+        "interval": 10
+      }
+    },
+    {
+      "enabled": true,
+      "enabledManagedType": "UserManaged",
+      "jobType": "Execute",
+      "configuration": {
+        "type": "Cron",
+        "startDateTime": "2025-06-20T14:19:00",
+        "endDateTime": "2027-11-30T13:19:00",
+        "localTimeZoneId": "Central Standard Time",
+        "interval": 10
+      }
     }
   ]
 }
