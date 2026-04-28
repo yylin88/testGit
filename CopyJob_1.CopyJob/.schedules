@@ -3,6 +3,7 @@
   "schedules": [
     {
       "enabled": true,
+      "enabledControlType": "UserEnabled",
       "jobType": "Execute",
       "configuration": {
         "type": "Cron",
@@ -10,6 +11,66 @@
         "endDateTime": "2027-04-27T20:12:00",
         "localTimeZoneId": "China Standard Time",
         "interval": 15
+      }
+    },
+    {
+      "enabled": false,
+      "enabledVariableReference": "$(/**/Variables_1/p1)",
+      "enabledControlType": "UserDisabled",
+      "jobType": "Execute",
+      "configuration": {
+        "type": "Cron",
+        "startDateTime": "2025-06-20T14:19:00",
+        "endDateTime": "2027-11-30T13:19:00",
+        "localTimeZoneId": "Central Standard Time",
+        "interval": 10
+      }
+    },
+    {
+      "enabledVariableReference": "$(/**/Variables_1/p3)",
+      "enabledControlType": "VariableReferenceManaged",
+      "jobType": "Execute",
+      "configuration": {
+        "type": "Cron",
+        "startDateTime": "2025-06-20T14:19:00",
+        "endDateTime": "2027-12-30T13:19:00",
+        "localTimeZoneId": "Central Standard Time",
+        "interval": 10
+      }
+    },
+    {
+      "enabled": false,
+      "enabledControlType": "UserDisabled",
+      "jobType": "Execute",
+      "configuration": {
+        "type": "Cron",
+        "startDateTime": "2025-06-20T14:19:00",
+        "endDateTime": "2027-11-30T13:19:00",
+        "localTimeZoneId": "Central Standard Time",
+        "interval": 10
+      }
+    },
+    {
+      "enabledVariableReference": "$(/**/Variables_1/p2)",
+      "enabledControlType": "VariableReferenceManaged",
+      "jobType": "Execute",
+      "configuration": {
+        "type": "Cron",
+        "startDateTime": "2025-06-20T14:19:00",
+        "endDateTime": "2027-12-30T13:19:00",
+        "localTimeZoneId": "Central Standard Time",
+        "interval": 10
+      }
+    },
+    {
+      "enabled": false,
+      "jobType": "Execute",
+      "configuration": {
+        "type": "Cron",
+        "startDateTime": "2025-06-20T14:19:00",
+        "endDateTime": "2027-11-30T13:19:00",
+        "localTimeZoneId": "Central Standard Time",
+        "interval": 10
       }
     }
   ]
