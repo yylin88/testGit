@@ -64,6 +64,19 @@
     },
     {
       "enabled": false,
+      "enabledControlType": "UserDisabled",
+      "jobType": "Execute",
+      "configuration": {
+        "type": "Cron",
+        "startDateTime": "2025-06-20T14:19:00",
+        "endDateTime": "2027-11-30T13:19:00",
+        "localTimeZoneId": "Central Standard Time",
+        "interval": 10
+      }
+    },
+    {
+      "enabledVariableReference": "$(/**/Variables_1/p1)",
+      "enabledControlType": "VariableReferenceManaged",
       "jobType": "Execute",
       "configuration": {
         "type": "Cron",
